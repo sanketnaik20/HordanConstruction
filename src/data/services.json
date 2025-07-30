@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Residential Construction",
+    "description": "From foundations to finishing, we build dream homes with attention to detail and quality.",
+    "icon": "fas fa-home"
+  },
+  {
+    "title": "Commercial Projects",
+    "description": "We specialize in commercial spaces like offices, retail stores, and hospitality buildings.",
+    "icon": "fas fa-building"
+  },
+  {
+    "title": "Renovation & Remodeling",
+    "description": "Transform your existing spaces into modern and functional areas that suit your lifestyle.",
+    "icon": "fas fa-tools"
+  },
+  {
+    "title": "Architecture & Design",
+    "description": "Professional architectural planning and innovative design for your construction needs.",
+    "icon": "fas fa-drafting-compass"
+  },
+  {
+    "title": "Project Management",
+    "description": "Efficient, on-time, and on-budget project execution with constant communication and supervision.",
+    "icon": "fas fa-tasks"
+  },
+  {
+    "title": "Interior Design",
+    "description": "Beautiful, functional interiors tailored to your preferences, style, and budget.",
+    "icon": "fas fa-couch"
+  }
+]
