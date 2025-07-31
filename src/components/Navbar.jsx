@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
+import { animate } from "framer-motion";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,9 +16,13 @@ const Navbar = () => {
       const navbarHeight = 70;
       const targetPosition = targetElement.offsetTop - navbarHeight;
 
-      window.scrollTo({
-        top: targetPosition,
-        behavior: "smooth",
+      const scrollElement = document.scrollingElement || document.documentElement;
+      animate(scrollElement.scrollTop, targetPosition, {
+        duration: 0,
+        ease: "easeInOut",
+        onUpdate: (latest) => {
+          scrollElement.scrollTop = latest;
+        },
       });
     }
   }, []);

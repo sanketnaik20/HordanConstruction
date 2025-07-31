@@ -73,7 +73,7 @@ export default function Projects() {
           </motion.div>
         ) : (
           <motion.div
-            className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+            className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
@@ -86,10 +86,10 @@ export default function Projects() {
           </motion.div>
         )}
 
-        <div className="text-center mt-8">
+        <div className="text-center mt-12">
           <button
             onClick={toggleShowAll}
-            className="bg-black text-white px-6 py-3 rounded-full text-sm hover:bg-gray-800 transition-all"
+            className="bg-black text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-500 transition-all duration-300 shadow-md hover:shadow-lg"
           >
             {showAll ? 'Show Less' : 'View All Projects'}
           </button>
